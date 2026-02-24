@@ -2,6 +2,7 @@ import { dir } from 'i18next';
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./../globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -26,7 +27,10 @@ export default async function RootLayout({children, params: paramsPromise,}: Rea
             {/* eslint-disable-next-line @next/next/no-sync-scripts */}
             <script src="/wasm/wasm_exec.js"></script>
         </head>
-        <body>{children}</body>
+        <body>
+            <SpeedInsights />
+            {children}
+        </body>
         </html>
     );
 }
