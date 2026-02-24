@@ -1,3 +1,28 @@
 {
-  "title": "FlashMachineLanguage"
+  "title": {
+    "title": "FlashMachineLanguage",
+    "start": "Start",
+    "settings": "Settings",
+    "how_to_play": "How to Play"
+  },
+  "how_to_play": {
+    "title": "How to Play",
+    "step1_title": "Flash Display",
+    "step1_body": "x86 machine code instructions are displayed one byte at a succession.",
+    "step2_title": "Execute in Your Head",
+    "step2_body": "Interpret and mentally execute the displayed instruction sequence as x86 assembly.",
+    "step3_title": "Enter the Result",
+    "step3_body": "After all instructions are shown, enter the execution result as a hexadecimal number and submit.",
+    "feedback_title": "Bug Reports & Feedback",
+    "feedback_body": "Please report bugs or suggestions via GitHub Issues. All feedback is warmly welcome!"
+  },
+  "game": {
+    "submit": "Answer",
+    "replay": "Play Again",
+    "change_level": "Change Level",
+    "correct": "CORRECT",
+    "incorrect": "INCORRECT",
+    "your_input": "Your Input",
+    "correct_answer": "Answer"
+  }
 }

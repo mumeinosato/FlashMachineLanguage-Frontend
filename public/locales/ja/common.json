@@ -2,6 +2,27 @@
   "title": {
     "title": "フラッシュ機械語",
     "start": "スタート",
-    "settings": "設定"
+    "settings": "設定",
+    "how_to_play": "遊び方"
+  },
+  "how_to_play": {
+    "title": "遊び方",
+    "step1_title": "機械語をフラッシュ表示",
+    "step1_body": "x86機械語の命令が1バイトずつ画面に表示されます。",
+    "step2_title": "頭の中で実行",
+    "step2_body": "表示された命令列をx86アセンブリとして頭の中で解釈・実行してください。",
+    "step3_title": "結果を入力",
+    "step3_body": "全命令の表示が終わったら、実行結果を16進数で入力して回答してください。",
+    "feedback_title": "バグ報告・フィードバック",
+    "feedback_body": "不具合の報告や改善のご提案は、GitHubのIssueよりお寄せください。皆さまからのフィードバックを心よりお待ちしています！"
+  },
+  "game": {
+    "submit": "回答",
+    "replay": "もう一度",
+    "change_level": "レベル変更",
+    "correct": "正解",
+    "incorrect": "不正解",
+    "your_input": "入力値",
+    "correct_answer": "正解"
   }
 }
